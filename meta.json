@@ -6,8 +6,8 @@
         "description" : "The username to add"
     }, {
         "id"          : "list",
-        "title"       : "Twitter List Name",
-        "description" : "The name of the list you want to add the user to"
+        "title"       : "Twitter List Slug",
+        "description" : "The slug of the list as it appears in the URL"
     }],
     "outputs" : [ ],
     "title"   : "Twitter Add To List",
