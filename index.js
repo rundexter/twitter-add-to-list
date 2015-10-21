@@ -44,7 +44,7 @@ module.exports = {
                 T.get('lists/list', function(err, data, response) {
                     if(err) return cb(err);
                     var id = _.get(_.find(data, {name: list}), 'id');
-                    console.log(data.title);
+                    self.log(data);
                     return id
                         ? cb(null, id)
                         : cb('Could not find list ' + list)
