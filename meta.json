@@ -1,26 +1,15 @@
-/*
- * Metadata describing the module operation
- */
 {
     //Required. Inputs the module expects.
-    "inputs": [
-        //e.g.
-        /*
-        {
-            "id": "from",
-            "title":"From",
-        }
-        */
-    ],
-    //Required. Outputs the module emits.
-    "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From",
-        }
-      */
-    ],
-    "title": "Twitter Add To List" /* Required.A display name for the module */
+    "inputs": [{
+        "id"    : "username",
+        "title" : "Twitter Username",
+        "description" : "The username to add"
+    }, {
+        "id"          : "list",
+        "title"       : "Twitter List Name",
+        "description" : "The name of the list you want to add the user to"
+    }],
+    "outputs" : [ ],
+    "title"   : "Twitter Add To List",
+    "icon"    : "twitter"
 }
